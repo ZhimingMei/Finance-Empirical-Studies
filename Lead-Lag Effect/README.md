@@ -15,5 +15,7 @@ And further, we will use this effect to develop a quantitative strategy.
 ### Reference
 In this empirical study, Machine Learning + provides comprehensive guide on implementing VAR test by Python. See https://www.machinelearningplus.com/time-series/vector-autoregression-examples-python/ for details
 
+### Updates
 *May 8, 2022 Updates*     
+
 The previous empirical test was based on weekly data, however, the conclusion might be biased if the whole industry performed well (on the whole) during the testing period. Hence, we move forward to **intraday data** to further explore the lead-lag effect.
