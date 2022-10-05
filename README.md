@@ -4,6 +4,6 @@ This repository will store my own empirical studies during my learning process i
 *June 1, 2022 Update*:      
 Empirical study of lead-lag effect in Chinese stock market.
 
-~~*June 16, 2022 Update*:       ~~
-~~Empirical study of CAPM model in Chinese stock market (A shares).     ~~
+~~*June 16, 2022 Update*:~~           
+~~Empirical study of CAPM model in Chinese stock market (A shares).~~         
 Updates: Delete this folder, since the ideas in this empirical study need to be revised.
