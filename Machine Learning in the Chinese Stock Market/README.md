@@ -25,14 +25,18 @@ z_{i,t} = [\matrix{c_{i,t}\\x_t\otimes c_{i,t}\\d_{i,t}}]
 $$
 where $c_{i,t}$ is a vector of stock-level characteristics, $x_t$ is a vector of macroeconomic predictors, and $d_{i,t}$ is a vector of industry dummies.
 
+
+
+To evaluate the performance, they use the out-of-sample $R^2$.
+
 ### 4 types of models 
 
 Figure out the out-of-sample predictability
 
 - OLS
-- Regularized models (PLS, LASSO, Enet)
+- Regularized (linear) models (PLS, LASSO, Enet)
 - Tree models (GBRT, RF)
-- Neural networks
+- Neural network models (NN1-NN5)
 
 
 
@@ -51,5 +55,23 @@ Figure out the out-of-sample predictability
 
 ### Predictors
 
+**Note:** Construct the factors that are used in this empirical analysis.
+
+**How to measure the performance (variable importance)**:
+
+For a specific model, we calculate the reduction in predictive $R^2$ when setting all values of a given predictor to zero within each training sample, and average them into a single importance measure for each predictor.
 
 
+
+### Model selection (measure model performance)
+
+- ~~Unconditional superior predictive ability (USPA) test of Hansen (2005)~~
+  - fail to distinguish some model performance
+  - the same case as Diebold and Mariano (1995) test
+- Conditional superior predictive ability (CSPA) test of Li et al. (2020)
+
+
+
+## Portfolio analysis
+
+(TO BE CONTINUED)
