@@ -18,7 +18,8 @@
 字段： 股票周开盘价、股票周收盘价
 
 ## Progress
-Nov 22, 2022:        
+Nov 22, 2022:          
 Factor 1, 2, 3, and 60
 
+Nov 26, 2022:      
 Factor 4 (calculate beta)
