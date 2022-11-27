@@ -1,4 +1,24 @@
 # Progress Note
 
+## Data description:
+
+- FI_T6 现金流分析 semi-annual   
+字段：折旧摊销
+
+- FS_Combas 资产负债表 semi-annual  
+字段：现金及存放中央银行款项、一年内到期的非流动资产、流动资产合计、资产总计、应交税费、流动负债合计
+
+- FS_Comins 利润表 semi-annual    
+字段： 净利润
+
+- TRD_Weekm 市场周回报率 weekly       
+字段： （流通市值加权）市场周回报率
+
+- TRD_Weekm 股票周交易数据 weekly          
+字段： 股票周开盘价、股票周收盘价
+
+## Progress
 Nov 22, 2022:        
 Factor 1, 2, 3, and 60
+
+Factor 4 (calculate beta)
