@@ -15,7 +15,7 @@
 - Quarterly financial statement data
 - One year government bond -- risk-free rate
 
-
+**Note:** According to CSMAR and Wind, we cannot upload the data aquired from these two database.
 
 ## Empirical Analysis
 

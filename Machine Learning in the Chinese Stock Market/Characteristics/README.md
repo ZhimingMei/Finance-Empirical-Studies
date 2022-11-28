@@ -17,9 +17,15 @@
 - TRD_Weekm 股票周交易数据 weekly          
 字段： 股票周开盘价、股票周收盘价
 
+- FI_T10 相对价值指标 quarterly     
+字段： 行业代码、行业名称、账面市值比
+
 ## Progress
 Nov 22, 2022:          
 Factor 1, 2, 3, and 60
 
 Nov 26, 2022:      
-Factor 4 (calculate beta)
+Factor 4 (calculate beta) and 5
+
+Nov 27, 2022:
+Factor 6 and 7
