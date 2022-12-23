@@ -6,10 +6,10 @@
 字段：折旧摊销
 
 - FS_Combas 资产负债表 semi-annual  
-字段：现金及存放中央银行款项、一年内到期的非流动资产、流动资产合计、资产总计、应交税费、流动负债合计
+字段：现金及存放中央银行款项、一年内到期的非流动资产、流动资产合计、资产总计、应交税费、流动负债合计、存货净额、应收帐款净额、固定资产合计、长期负债合计
 
 - FS_Comins 利润表 semi-annual    
-字段： 净利润
+字段： 净利润、营业总收入
 
 - TRD_Weekm 市场周回报率 weekly       
 字段： （流通市值加权）市场周回报率
@@ -29,3 +29,9 @@ Factor 4 (calculate beta) and 5
 
 Nov 27, 2022:
 Factor 6 and 7
+
+Dec 23, 2022:
+Factor 8, 9, 10, and 83
+
+## Factor Value
+All the factor values are calculated in the last line of each block.
